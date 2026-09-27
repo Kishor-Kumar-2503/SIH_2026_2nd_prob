@@ -2157,3 +2157,240 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+/* =========================================================
+   GREEN PROFESSIONAL THEME
+   ========================================================= */
+
+:root {
+  color: #f0fdf4;
+  background: #071a12;
+}
+
+body {
+  background: #071a12;
+}
+
+.app {
+  background:
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(34, 197, 94, 0.08),
+      transparent 30%
+    ),
+    #071a12;
+}
+
+.sidebar {
+  background: rgba(5, 18, 12, 0.97);
+  border-right-color: rgba(74, 222, 128, 0.12);
+}
+
+/* Brand */
+
+.brand-icon {
+  color: #34d399;
+  background: rgba(34, 197, 94, 0.12);
+  border-color: rgba(52, 211, 153, 0.2);
+}
+
+.brand span {
+  color: #34d399;
+}
+
+/* Navigation */
+
+.nav-item.active {
+  color: #34d399;
+  background: rgba(34, 197, 94, 0.11);
+  box-shadow: inset 3px 0 0 #22c55e;
+}
+
+.nav-item:hover {
+  background: rgba(74, 222, 128, 0.08);
+}
+
+/* Main content */
+
+.page-placeholder,
+.panel,
+.stat-card,
+.card {
+  background: rgba(12, 33, 23, 0.72);
+  border-color: rgba(74, 222, 128, 0.10);
+}
+
+/* Green accent */
+
+.eyebrow,
+.panel-label,
+.page-placeholder span,
+.coming-soon span {
+  color: #34d399;
+}
+
+.route-line,
+.arrow {
+  color: #22c55e;
+}
+
+.stat-icon {
+  color: #34d399;
+  background: rgba(34, 197, 94, 0.10);
+}
+
+/* Forecast */
+
+.forecast-badge {
+  color: #34d399;
+  background: rgba(34, 197, 94, 0.09);
+}
+
+.forecast-bar {
+  background: #22c55e;
+}
+
+.forecast-change {
+  background: rgba(22, 101, 52, 0.35);
+  color: #34d399;
+}
+
+/* Buttons */
+
+.decision-button {
+  color: #34d399;
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(34, 197, 94, 0.25);
+}
+
+.decision-button:hover {
+  background: rgba(34, 197, 94, 0.14);
+}
+
+/* Main result */
+
+.main-result {
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(52, 211, 153, 0.15);
+}
+
+.main-result strong {
+  color: #34d399;
+}
+
+/* Inputs */
+
+.input-wrapper {
+  background: rgba(4, 20, 12, 0.7);
+  border-color: rgba(74, 222, 128, 0.12);
+}
+
+.input-wrapper:focus-within {
+  border-color: rgba(52, 211, 153, 0.5);
+}
+
+.input-group label svg {
+  color: #34d399;
+}
+
+/* Audit */
+
+.audit-factor {
+  background: rgba(7, 29, 18, 0.75);
+  border-color: rgba(74, 222, 128, 0.14);
+}
+
+.audit-score {
+  background: rgba(22, 101, 52, 0.25);
+  color: #34d399;
+}
+
+.data-table tbody tr:hover {
+  background: rgba(22, 101, 52, 0.18);
+}
+
+/* Scenario cards */
+
+.scenario-card {
+  background: rgba(8, 30, 19, 0.75);
+  border-color: rgba(74, 222, 128, 0.14);
+}
+
+.scenario-card.charter-scenario {
+  background: linear-gradient(
+    135deg,
+    rgba(6, 55, 31, 0.82),
+    rgba(8, 30, 19, 0.72)
+  );
+  border-color: rgba(52, 211, 153, 0.25);
+}
+
+.scenario-card-header svg {
+  color: #34d399;
+}
+
+.scenario-per-tonne {
+  color: #34d399;
+}
+
+/* Procurement intelligence */
+
+.freight-intelligence {
+  background: rgba(7, 30, 18, 0.75);
+  border-color: rgba(74, 222, 128, 0.16);
+}
+
+.freight-intelligence-grid > div {
+  background: rgba(4, 22, 13, 0.85);
+  border-color: rgba(74, 222, 128, 0.10);
+}
+
+/* Decision summary */
+
+.decision-summary {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 197, 94, 0.09),
+    rgba(8, 30, 19, 0.78)
+  );
+  border-color: rgba(52, 211, 153, 0.2);
+}
+
+/* All-in cost */
+
+.all-in-cost {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 197, 94, 0.12),
+    rgba(8, 30, 19, 0.85)
+  );
+  border-color: rgba(74, 222, 128, 0.22);
+}
+
+.all-in-cost > strong {
+  color: #34d399;
+}
+
+/* Save button */
+
+.save-button {
+  background: #22c55e;
+  color: #03140a;
+}
+
+.save-button:hover {
+  filter: brightness(1.08);
+}
+
+/* Status */
+
+.status-available,
+.online-pill {
+  background: rgba(34, 197, 94, 0.10);
+  color: #34d399;
+}
+
+.status-dot,
+.live-dot {
+  background: #22c55e;
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+}
